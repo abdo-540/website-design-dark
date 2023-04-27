@@ -3,6 +3,7 @@
     padding: 0;
     --whitesh: rgb(214, 214, 214);
     --blackish:rgb(38, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -66,7 +67,6 @@ nav{
 }
 #n1::after, #n2::after, #n3::after, #n4::after{
     content: '';
-    position: absolute;
     display: block;
     width: 0;
     height: 2px;
@@ -78,16 +78,16 @@ nav{
     color: white;
 }
 #n1:hover::after{
-    width: 43px;
+    width: 100%;
 }
 #n2:hover::after{
-    width: 65px;
+    width: 100%;
 }
 #n3:hover::after{
-    width: 75px;
+    width: 100%;
 }
 #n4:hover::after{
-    width: 65px;
+    width: 100%;
 }
 #banner{
     height: 650px;
